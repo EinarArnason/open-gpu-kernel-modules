@@ -955,7 +955,7 @@ void NV_API_CALL rm_init_dynamic_power_management(
     // Below function always return NV_OK and depends upon kernel flags
     // IORESOURCE_ROM_SHADOW & PCI_ROM_RESOURCE for Primary VGA detection.
     //
-    nv_set_primary_vga_status(nv);
+    // nv_set_primary_vga_status(nv);
 
     // UEFI case: where console is driven by GOP driver.
     bUefiConsole = rm_get_uefi_console_status(nv);
